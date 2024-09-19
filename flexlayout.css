@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+}
+
+h1{
+    background-color: #e474f3;
+}
+
+.container{
+    background-color: crimson;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.container1{
+    background-color: burlywood;
+}
+
+.container2{
+    background-color: cadetblue;
+}
+
+.container3{
+    background-color: darkred;
+}
+
+.container4{
+    background-color: darkslategray;
+}
+
+.container5{
+    background-color: darkturquoise;
+}
+

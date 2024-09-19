@@ -1,0 +1,50 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+
+.container{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height:100vh;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
+.col1{
+    padding: 5px;
+    background-color: rgba(109, 111, 0, 0.408);
+    display: grid;
+    grid-gap: 5px;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.col2{
+    padding: 5px;
+    background-color: rgba(6, 1, 90, 0.614);
+    display: grid;
+    grid-gap: 5px;
+}
+
+.col3{
+    padding: 5px;
+    background-color: rgba(115, 0, 0, 0.453);
+    display: grid;
+    grid-gap: 5px;
+}
+
+p{
+    background-color: rgb(0, 0, 0);
+    color: tomato;
+    display: grid;
+    grid-gap: 5px;
+    padding: 10px;
+    justify-content: center;
+}

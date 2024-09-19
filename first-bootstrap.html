@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    meta
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="This page helps to learn HTML5 elements with bootstrap and google-fonts">
+    <meta name="keywords" content="html bootstrap all html tags">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="5">
+
+
+    <title>Testing Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="first-bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 text-center">
+    <h1 id="#top" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded montserrat-row1">Types of tags in HTML</h1>
+    <a href="#bottom">Go to bottom</a> 
+    <table class="table table-bordered align-middle table-secondary">
+        <tr class="table-primary montserrat-row1">
+            <td>
+                <strong>Container Tags</strong> - Tags that enclose other content. Examples include:
+                <ul>
+                    <li><code>&lt;ul&gt;</code> - Unordered List</li>
+                    <li><code>&lt;table&gt;</code> - Table</li>
+                    <li><code>&lt;body&gt;</code> - Body</li>
+                    <li><code>&lt;head&gt;</code> - Head</li>
+                    <li><code>&lt;div&gt;</code> - Division</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Standalone Tags</strong> - Tags that do not require a closing tag. Examples include:
+                <ul>
+                    <li><code>&lt;br&gt;</code> - Line Break</li>
+                    <li><code>&lt;img&gt;</code> - Image</li>
+                    <li><code>&lt;hr&gt;</code> - Horizontal Rule</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Content Tags</strong> - Tags that must be opened and closed. Examples include:
+                <ul>
+                    <li><code>&lt;h1&gt;</code> - Heading 1</li>
+                    <li><code>&lt;td&gt;</code> - Table Data</li>
+                    <li><code>&lt;p&gt;</code> - Paragraph</li>
+                    <li><code>&lt;b&gt;</code> - Bold</li>
+                    <li><code>&lt;i&gt;</code> - Italics</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Parent and Child Tags</strong> - Tags that can contain other tags. Examples include:
+                <ul>
+                    <li><code>&lt;table&gt;</code> - Contains <code>&lt;tr&gt;</code> and <code>&lt;td&gt;</code></li>
+                    <li><code>&lt;ul&gt;</code> - Contains <code>&lt;li&gt;</code></li>
+                </ul>
+            </td>
+            <td>
+                <strong>Tags with Attributes</strong> - Tags that can have additional attributes. Examples include:
+                <ul>
+                    <li><code>&lt;div id="myId"&gt;</code></li>
+                    <li><code>&lt;span class="myClass"&gt;</code></li>
+                    <li><code>&lt;img src="image.jpg" alt="description"&gt;</code></li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="table-success kalnia-glaze-row2">
+            <td >
+                <Strong>Heading Tags:</Strong><br>
+                <table class="table table-dark table-border-less alata-regular">
+                    <tr>
+                        <td class="text-bg-secondary p-3"><h1>Main Heading</h1></td>
+                        <td class="text-bg-success p-3"><h2>Secondary Heading</h2></td>
+                        <td class="text-bg-dark p-3"><h3>Tertiary Heading</h3></td>
+                    </tr>
+                    <tr>
+                        <td class="text-bg-light p-3"><h4>Subheading Level 4</h4></td>
+                        <td class="text-bg-info p-3"><h5>Subheading Level 5</h5></td>
+                        <td class="text-bg-warning p-3"><h6>Subheading Level 6</h6></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <strong>Text Formatting:</strong>
+                <ul>
+                    <li><strong>&lt;strong&gt;&lt;/strong&gt;</strong> <strong>Strong emphasis (bold)</strong></li>
+                    <li><em>&lt;em&gt;&lt;/em&gt;</em> <em>Emphasis (italic)</em></li>
+                    <li><b>&lt;b&gt;&lt;/b&gt;</b> <b>Bold</b></li>
+                    <li><i>&lt;i&gt;&lt;/i&gt;</i> <i>Italic</i></li>
+                    <li><u>&lt;u&gt;&lt;/u&gt;</u> <u>Underline</u></li>
+                    <li><s>&lt;s&gt;&lt;/s&gt;</s> <s>Strikethrough</s></li>
+                    <li><sub>&lt;sub&gt;&lt;/sub&gt;</sub> x<sub>2</sub> (Subscript)</li>
+                    <li><sup>&lt;sup&gt;&lt;/sup&gt;</sup> x<sup>2</sup> (Superscript)</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Punctuation Tags:</strong>  <br>
+                &lt;q&gt;Content here&lt;/q&gt; <br>
+                <q>You are a Trillionaire</q><br> - Anil
+            </td>
+            <td>
+                <strong>Paragraph Tags</strong> <br>
+                &lt;p&gt;&lt;/p&gt;
+                <p>This is for organizing content into paragraphs.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et molestiae nisi culpa. Tempora quae fuga eos soluta deserunt quod reiciendis nulla, molestias, nesciunt similique ex dicta rerum mollitia, eaque blanditiis!</p>
+            </td>
+            <td>
+                <strong>Anchor Tag:</strong> <br>
+                <p>The &lt;a&gt; HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.</p>
+                &lt;a href="https://example.com"&gt;&lt;/a&gt;<br>
+                <a href="https://example.com">Visit Example.com</a><br>
+                <a class="btn btn-outline-dark" href="https://example.com" role="button">Visit</a>
+            </td>
+        </tr>        
+        <tr class="alata-regular">
+            <td>
+                <strong>Image Tag:</strong> <br>
+                &lt;img src="image_src.jpg"&gt;&lt;/img&gt; 
+                <img src="Soa Architecture.png" width="150" height="150" alt="">
+            </td>
+            <td>
+                <strong>Video Tag:</strong> <br>
+                &lt;video src="video_src.mp4"&gt;&lt;/video&gt; 
+                &lt;video&gt;&lt;/video&gt;
+                <video src="Hanumankind – Big Dawgs _ Ft. Kalmi (Official Music Video) _ Def Jam India.mp4" controls poster="OIP.jpg" width="350" height="250"></video>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td><h1>U</h1></b>&nbsp;</td>
+                        <td><h1><b><ul type="square"><li></li></ul></b></h1></td>
+                    </tr>
+                    <tr>
+                        <td><h1>S</h1></b></td>
+                        <td><h1><b>&nbsp;T</b></h1></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <strong>IFrame Tag:</strong> <br>
+                &lt;iframe src="src_link"&gt;&lt;/iframe&gt;
+                <iframe src="https://flipkart.com" frameborder="2"></iframe>
+            </td>
+            <td><figure></figure></td>
+        </tr>
+        <tr>
+            <td>&lt;ol&gt;&lt;/ol&gt; <br>
+                <ol type="1">
+                    <li>Hello1</li>
+                    <li>Hello2</li>
+                    <li>Hello3</li>
+                    <li>Hello4</li>
+                    <li>Hello5</li>
+                </ol>
+            </td>
+            <td>&lt;ol&gt;&lt;/ol&gt; <br>
+                <ol type="I">
+                    <li>Hello1</li>
+                    <li>Hello2</li>
+                    <li>Hello3</li>
+                    <li>Hello4</li>
+                    <li>Hello5</li>
+                </ol>
+            </td>
+            <td>&lt;ol&gt;&lt;/ol&gt; <br>
+                <ol type="A">
+                    <li>Hello1</li>
+                    <li>Hello2</li>
+                    <li>Hello3</li>
+                    <li>Hello4</li>
+                    <li>Hello5</li>
+                </ol>
+            </td>
+            <td>&lt;ol&gt;&lt;/ol&gt; <br>
+                <ul type="square">
+                    <li>Hello1</li>
+                    <li>Hello2</li>
+                    <li>Hello3</li>
+                    <li>Hello4</li>
+                    <li>Hello5</li>
+                </ul>
+            </td>
+            <td>&lt;ol&gt;&lt;/ol&gt; <br>
+                <ol type="a">
+                    <li>Hello1</li>
+                    <li>Hello2</li>
+                    <li>Hello3</li>
+                    <li>Hello4</li>
+                    <li>Hello5</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <h3>Container Tags</h3>
+            <td><div< class="container">
+                <div>
+                    <h3>HELLO1</h3>
+                    <h3>HELLO2</h3>
+                    <h3>HELLO3</h3>
+                </div>
+                <div>
+                    <h3>HELLO1</h3>
+                    <h3>HELLO2</h3>
+                    <h3>HELLO3</h3>
+                </div>
+                <div>
+                    <h3>HELLO1</h3>
+                    <h3>HELLO2</h3>
+                    <h3>HELLO3</h3>
+                </div>
+            </div></td>
+            <td><span class="content">
+                <span>
+                    <h3>Welcome1</h3>
+                    <h3>Welcome2</h3>
+                    <h3>Welcome3</h3>
+                </span>
+                <span>
+                    <h3>Welcome1</h3>
+                    <h3>Welcome2</h3>
+                    <h3>Welcome3</h3>
+                </span>
+                <span>
+                    <h3>Welcome1</h3>
+                    <h3>Welcome2</h3>
+                    <h3>Welcome3</h3>
+                </span>
+            </span></td>
+            <td><head>
+                <h1>UST TRV</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="http://">click</a></li>
+                            <li><a href="http://">click</a></li>
+                            <li><a href="http://">click</a></li>
+                        </ul>
+                    </nav>
+            </head></td>
+            <td><main>
+                <section>
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, omnis!</p>
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <p>Magnam maiores, modi aliquam iste obcaecati eaque ab ratione aut!</p>
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <p>Earum porro id necessitatibus, debitis in cupiditate ullam sequi nesciunt!</p>
+                    </article>
+                </section>
+            </main></td>
+
+            <td><head>
+                <h4>UST TVM
+                    <nav>
+                        <ul>
+                            <li>click1</li>
+                            <li>click2</li>
+                            <li>click3</li>
+                        </ul>
+                    </nav>
+                </h4>
+            </head>
+            <main>
+                <section>
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, veritatis?
+                            <aside>hello1</aside>
+                            <aside>hello2</aside>
+                        </p>
+                    </article>
+                    <article>
+                        <p>
+                            Nemo error optio aut ipsam maxime fugiat officiis in quisquam.
+                            <aside>hello1</aside>
+                            <aside>hello2</aside>
+                        </p>
+                    </article>
+                    <article>
+                        <p>
+                            Tenetur asperiores odio reprehenderit ab dicta fugit illo ratione. Hic!
+                            <aside>hello1</aside>
+                            <aside>hello2</aside>
+                        </p>
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, facere.
+                            <aside>hello1</aside>
+                            <aside>hello2</aside>
+                        </p>
+                    </article>
+                    <article>
+                        <p>
+                            Aperiam voluptates debitis, saepe magnam esse nostrum perspiciatis distinctio? Laudantium!
+                            <aside>hello1</aside>
+                            <aside>hello2</aside>
+                        </p>
+                    </article>
+                    <article>
+                        <p>
+                            Dolores aliquid laborum praesentium repellendus architecto doloribus, dicta suscipit blanditiis!
+                            <aside>hello1</aside>
+                            <aside>hello2</aside>
+                        </p>
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, eligendi.
+                            <aside>hello1</aside>
+                            <aside>hello2</aside>
+                        </p>
+                    </article>
+                    <article>
+                        <p>
+                            Esse atque non quis magni eius repellendus ab accusantium suscipit?
+                            <aside>hello1</aside>
+                            <aside>hello2</aside>
+                        </p>
+                    </article>
+                    <article>
+                        <p>
+                            Delectus pariatur a laborum accusamus iure, enim amet corporis quos.
+                            <aside>hello1</aside>
+                            <aside>hello2</aside>
+                        </p>
+                    </article>
+                </section>
+            </main>
+            <footer>
+                <p></p>
+                <ul>
+                    <li><a href=""><a href="http://">click1</a><a href="http://">click2</a></a><a href=""><a href="http://">click1</a><a href="http://">click2</a></a></li>
+                    <li><a href=""><a href="http://">click1</a><a href="http://">click2</a></a><a href=""><a href="http://">click1</a><a href="http://">click2</a></a></li>
+                </ul>
+            </footer></td>
+        </tr>
+        <tr>
+            <form action="" name="my_form">
+                <td>
+                    <label for="calender">Choose Date of Birth:<br>
+                    <input type="date" name="calender" value="" id="mycal"></label>
+                </td>
+                <td><input type="time" name="timet1" id="mytime"></td>
+                <td><input type="text" name="userid" value="" placeholder="Enter user_name here:" id="uid" maxlength="15" required></td>
+                <td><input type="number" name="age" id="agenum" min="18" max="60"></td>
+                <td><input type="email" name="officialmail" id="offimailid"></td>
+            </form>
+        </tr>
+        <tr>
+            <form action="" name="myform2">
+                <td><input type="range" name="freqency" id="radfreq" ></td>
+                <td><input type="search" name="searchbar" id="barsearch"></td>
+                <td><input type="color" name="palette" id="colorpalatte" class="form-control form-control-color"></td>
+                <td>
+                    <button class="btn btn-primary" type="submit">Button</button>
+                    <input class="btn btn-primary" type="button" value="Input">
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                    <input class="btn btn-primary" type="reset" value="Reset">
+                </td>
+                <td>Upload file: <br><br><input type="file" name="fileupload" id="uploadfile"></td>
+            </form>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-check">
+                    <strong>Checkboxes : </strong><br>
+                    <div>
+                        <input class="form-check-input" type="checkbox" value="mtech" id="mtech">
+                        <label class="form-check-label" for="mtech">
+                            M-Tech
+                        </label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" value="msc" id="msc">
+                        <label class="form-check-label" for="msc">
+                            MSc
+                        </label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="checkbox" value="mba" id="mba">
+                        <label class="form-check-label" for="mba">
+                            MBA
+                        </label>
+                    </div>
+                </div>
+            </td>
+            <td>
+                Radio Buttons : 
+                B-Tech<input type="radio" name="graduation" value="btech" id="">
+                BE <input type="radio" name="graduation" value="be" id="">
+                BSc <input type="radio" name="graduation" value="bsc" id="">
+
+            </td>
+            <td>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="">ITEM1</option>
+                    <option value="">ITEM2</option>
+                    <option value="">ITEM3</option>
+                    <option value="">ITEM4</option>
+                    <option value="">ITEM5</option>
+                    <option value="">ITEM6</option>
+                    <option value="">ITEM7</option>
+                </select>
+            </td>
+            <!-- select>option[value="item$"]*5>{item$} -->
+            <td>
+                <select class="form-select" multiple aria-label="Multiple select example" >
+                <option value="item1">item1</option>
+                <option value="item2">item2</option>
+                <option value="item3">item3</option>
+                <option value="item4">item4</option>
+                <option value="item5">item5</option>
+            </select></td>
+            <td>Say more about you:<textarea name="" id="" class="form-control" placeholder="Leave your comment here......."></textarea></td>
+        </tr>
+    </table>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, officia.</p>
+    </div>
+    <a href="#top">Go top</a>
+    <p id="bottom">bottom</p>
+</body>
+</html>

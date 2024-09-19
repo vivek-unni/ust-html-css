@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function sayGreetings(){
+            alert("HOLA coma Sava!!")
+        }
+
+        function showSeason(){
+            var month=new Date().getMonth();
+            //alert(month)
+            if(month>=6 && month<9)
+                alert("Monsoon Season")
+        }
+
+        function green(){
+            document.getElementById("greendiv").style.backgroundColor="blue";
+            document.getElementById("bluediv").style.backgroundColor="green";
+            document.getElementById("bluediv").style.color="teal";
+            document.getElementById("greendiv").style.color="pink";
+            document.getElementById("greendiv").style.fontFamily="Arial"
+            document.getElementById("greendiv").style.textAlign="center"
+            document.getElementById("greendiv").style.fontSize="50px"
+
+
+
+        }
+
+        function blue(){
+            document.getElementById("bluediv").style.backgroundColor="blue";
+            document.getElementById("greendiv").style.backgroundColor="green";
+            document.getElementById("greendiv").style.color="teal";
+            document.getElementById("bluediv").style.color="pink";
+            document.getElementById("bluediv").style.fontFamily="Arial"
+            document.getElementById("bluediv").style.textAlign="center"
+            document.getElementById("bluediv").style.fontSize="50px"
+
+
+        }
+
+        function validate(){
+            alert("Validating....")
+            var username=document.getElementById("username").value;
+            var password=document.getElementById("password").value;
+            // if(username=="" || password==""){
+            //     alert("Please fill all the fields")
+            //     return false;
+            // }
+            if(username.length >8 && password.length>8){
+                return true;
+            }else{
+                alert("Username and password should not be less than 8 characters")
+
+                return false;
+            }
+            // alert(username+" "+password)
+            // // return false;
+        }
+
+    </script>
+</head>
+<body>
+    <form action="" method="post" onsubmit="return validate()">
+        <fieldset>
+            <legend>LOGIN FORM</legend>
+            <br>
+            <label for="username">Username : </label>
+            <input type="text" name="username" id="username" />
+            <br><br>
+            <label for="password"> Password : </label>
+            <input type="password" name="password" id="password" />
+            <br><br>
+            <input type="submit" value="Go">
+            <input type="reset" value="clear">
+
+        </fieldset>
+<!-- 
+        <input type="button" value="greet" onclick="sayGreetings()" />
+        <input type="button" value="season" onclick="showSeason()" />
+        <input type="button" value="green" onclick="green()" />
+        <input type="button" value="blue" onclick="blue()" /> -->
+
+    </form>
+<!-- 
+    <div id="greendiv">
+        Hello <br><br><br>
+    </div>
+
+    <div id="bluediv">
+        Hello <br><br><br>
+    </div> -->
+
+</body>
+</html>

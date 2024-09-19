@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /**************************************************************/
+
+
+        const square2=(n)=>{
+            return n*n;
+        };
+
+        var r= square2(9);
+        console.log(r);
+
+        const square=function (n){
+            return n*n;
+        };
+
+        let s = square;
+        var result=s(5);
+        console.log(result);
+        /**************************************************************/
+
+        const factorial2=(n)=>{
+            if(n==0){
+                return 1;
+            }
+            return n*factorial2(n-1);
+        }
+
+        var ans=factorial2(7);
+        console.log(ans);
+
+        const factorial=function(n){
+            if(n==0){
+                return 1;
+            }
+            return n*factorial(n-1);
+        }
+        let f = factorial;
+        var result=f(5);
+        console.log(result);
+
+        /**************************************************************/
+
+        const product2=(m,n)=>{
+            return m*n;
+        }
+
+        console.log(product2(7,8))
+
+        const product=function(m,n){
+            return m*n;
+        }
+        console.log(product(7,9))
+
+        /**************************************************************/
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+}
+
+ol,ul{
+    display:table;
+    margin: 0 auto;
+}
+
+.montserrat-row1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+}
+
+.dancing-script-heading {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+}
+
+.kalnia-glaze-row2 {
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
